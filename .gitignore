@@ -42,11 +42,12 @@ npm-debug.log
 /tsd_typings/
 
 # Dist #
-/public/__build__/
-/src/*/__build__/
-/__build__/**
-/public/dist/
-.webpack.json
+# /public/__build__/
+# /src/*/__build__/
+# /__build__/**
+# /public/dist/
+# /src/*/dist/
+# .webpack.json
 
 # Doc #
 
@@ -55,7 +56,7 @@ npm-debug.log
 .idea/
 *.swp
 
-/dist
+# /dist
 
 compiled
 
